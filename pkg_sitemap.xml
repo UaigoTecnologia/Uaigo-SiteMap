@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extension type="package" version="3.0">
+
+	<name>Uaigo! Sitemap Package</name>
+	<author>Uaigo! Tecnologia</author>
+	<creationDate>May 2014</creationDate>
+	<packagename>sitemap</packagename>
+	<version>1.0.0</version>
+	<url>http://www.uaigo.com.br</url>
+	<packager>Uaigo! Tecnologia</packager>
+	<packagerurl>http://www.uaigo.com.br</packagerurl>
+	<description>PKG_SITE_MAP_DESC</description>
+
+	<files folder="packages">
+		<file type="component" id="com_sitemap">com_sitemap.zip</file>
+		<file type="plugin" id="categories" group="qmap">plg_qmap_categories.zip</file>
+		<file type="plugin" id="content" group="qmap">plg_qmap_content.zip</file>
+		<file type="plugin" id="menu" group="qmap">plg_qmap_menu.zip</file>
+	</files>
+	
+</extension>

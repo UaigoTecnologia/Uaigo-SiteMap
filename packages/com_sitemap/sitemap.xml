@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<extension type="component" version="3.0" method="upgrade">
+
+	<name>COM_SITEMAP</name>
+	<description>COM_SITEMAP_DESCRIPTION</description>
+	<version>1.0.0</version>
+	<author>Uaigo! Tecnologia</author>
+	<authorUrl>www.uaigo.com.br</authorUrl>
+	<authorEmail>suporte@uaigo.com.br</authorEmail>
+	<creationDate>May 2014</creationDate>
+	<license>GNU/GPL</license>
+	<copyright>All rights reserved to Uaigo! Tecnologia Ltd.</copyright>
+
+	<install>
+
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install.sitemap.sql</file>
+		</sql>
+
+	</install>
+
+
+
+	<uninstall>
+
+		<sql>
+			<file driver="mysql" charset="utf8">sql/uninstall.sitemap.sql</file>
+		</sql>
+
+	</uninstall>
+
+
+
+	<files folder="site">
+
+		<filename>index.html</filename>
+		<filename>sitemap.php</filename>
+		<filename>controller.php</filename>
+                <folder>language</folder>
+		<folder>models</folder>
+		<folder>views</folder>
+		
+
+	</files>
+
+	<languages>
+		
+	</languages>
+
+	<administration>
+
+		<menu>COM_SITEMAP</menu>
+
+
+
+		<files folder="administrator">
+
+			<filename>sitemap.php</filename>
+			<filename>index.html</filename>
+			<filename>controller.php</filename>
+                        <folder>language</folder>
+			<folder>controllers</folder>
+			<folder>helpers</folder>
+			<folder>models</folder>
+			<folder>sql</folder>
+			<folder>tables</folder>
+			<folder>views</folder>
+
+		</files>
+		
+
+	</administration>
+
+
+
+	
+
+</extension>
